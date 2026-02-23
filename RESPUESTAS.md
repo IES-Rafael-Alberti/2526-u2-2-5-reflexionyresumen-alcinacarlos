@@ -32,7 +32,7 @@ Responde con **lenguaje técnico** y **argumentos** (no solo opiniones). Si proc
 
 ### 1.6) ¿Qué tema has echado en falta o ampliarías? Justifica.
 - Más parte práctica de **tuning** de reglas (reducir falsos positivos), y ejemplos completos de un caso de uso “de principio a fin” (logs → regla → alerta → investigación → cierre).
-- Ampliaría ejercicios tipo simulacion, tomar decisiones de contención/erradicación con un “timeline” y evidencias.
+- Ampliaría ejercicios tipo simulación, tomar decisiones de contención/erradicación con un “timeline” y evidencias.
 
 ### 1.7) ¿Qué aplicarías “mañana” en un entorno real con recursos limitados?
 - Definir una **taxonomía mínima** de incidentes + severidades para hablar todos el mismo idioma.
@@ -47,7 +47,17 @@ Responde con **lenguaje técnico** y **argumentos** (no solo opiniones). Si proc
 
 
 ## 2) Resumen esquematizado (obligatorio)
-Incluye **todos los puntos** vistos en la unidad. Prioriza esquema/tabla/listas sobre párrafos largos.
+
+- Objetivo: detectar y gestionar incidentes con método.
+- Lenguaje común: **taxonomía** para clasificar y comunicar.
+- Operación: **SOC** (prevención, detección, respuesta, recuperación).
+- Motor: **SIEM** (logs → correlación → alertas).
+- Cómo se aterriza: **casos de uso** (amenaza → IOC → regla → alerta → procedimiento → validación/tuning).
+- Investigación: **OSINT** para añadir contexto rápido y verificable.
+- Respuesta: ciclo **preparación → identificación → contención → erradicación → recuperación → lecciones aprendidas**.
+- Riesgo operativo: **fatiga de alertas** si no hay priorización y flujo.
+- Evolución: **SOAR** para orquestar/automatizar tareas repetitivas con trazabilidad.
+- Cierre: **documentación + informe técnico** para aprendizaje y mejora continua.
 
 ### 2.1) Mapa/índice de la unidad (visión global)
 - **2.1.1 Taxonomía de incidentes**: lenguaje común para clasificar y comunicar.
